@@ -1,0 +1,10 @@
+/* bugSolution.css */
+
+.container {
+  width: calc(50% - 10px); /* Correct: space between operator and value */
+  height: calc(100vh - 50px); /*Correct: Consistent units*/ 
+}
+
+.element {
+  width: calc( (100% / 3) - 20px ); /* Correct: Proper spacing for nested calculations*/
+}
